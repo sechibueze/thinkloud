@@ -2,8 +2,6 @@ name: Nodejs Continuous Integration
 
 on:
   push:
-    branches:
-      - *
   pull_request:
     branches:
       - client
