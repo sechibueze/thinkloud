@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import checkPropTypes from 'check-prop-types';
 import PostCard from './PostCard';
 const post = {
-  _id: '1',
+  // _id: '1',
   title: 'A band new car',
   content: 'Just a summary fro you',
   // post_image: 'https://picsum.io/200/200.png',

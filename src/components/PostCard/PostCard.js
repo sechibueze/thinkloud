@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 const PostCard = ({ post }) => {
 
-  const { _id, title, content } = post;
+  const { title, content } = post;
   return ( 
     <div className='post-card' data-test='post-card'>
       {/* <img src={post_image} alt={'Thumbnail of post'} className='post-icon' data-test='post-icon'/> */}
@@ -17,7 +17,7 @@ const PostCard = ({ post }) => {
 
 PostCard.propTypes = {
   post: PropTypes.shape({
-    _id: PropTypes.string,
+    // _id: PropTypes.string,
     title: PropTypes.string.isRequired,
     content: PropTypes.string.isRequired,
     // post_image: PropTypes.string.isRequired,
